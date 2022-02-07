@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "jsx": "react-jsx",
+
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "types": ["jest", "vite/client"],
+
+    "noEmit": true,
+    "importsNotUsedAsValues": "error",
+    "preserveValueImports": true,
+
+    "isolatedModules": true,
+    "allowSyntheticDefaultImports": true,
+    "forceConsistentCasingInFileNames": true,
+
+    "strict": true,
+    "exactOptionalPropertyTypes": true,
+    "noUncheckedIndexedAccess": true,
+    "noImplicitOverride": true,
+    "noPropertyAccessFromIndexSignature": true,
+
+    "skipLibCheck": true
+  }
+}
